@@ -1,34 +1,19 @@
 # ShapeMe legal documents
 
-Legal documents for the **ShapeMe** app. Bilingual (DE binding / EN
-convenience). This folder is a self-contained static site with **clean URLs** —
-each document is a folder with an `index.html`, so it serves at the
-extensionless path the app links to.
+Published copy of the bilingual (DE binding / EN convenience) legal pages for
+the **ShapeMe** app. Provider: **TORCHTECHNOLOGY LTD** (Torch Technology),
+25 Martiou 27, D. Michael Tower, Flat/Office 105A, Egkomi, 2408 Nicosia,
+Cyprus · hello@torchtechnology.de.
 
-```
-/                → index.html      (landing)
-/privacy         → privacy/index.html
-/terms           → terms/index.html
-/impressum       → impressum/index.html
-/style.css       → style.css
-CNAME            → shapeme.torchtechnology.de
-```
+Hosted at **https://shapeme.torchtechnology.de/** (GitHub Pages, custom domain).
 
-Hosted at **https://shapeme.torchtechnology.de** (GitHub Pages, repo
-`absolutebasti/shapeme-legal`). The app and the App Store Connect metadata
-link to:
-
-| URL | Serves |
+| Path | Page |
 |---|---|
-| `https://shapeme.torchtechnology.de/privacy` | Privacy Policy |
-| `https://shapeme.torchtechnology.de/terms` | Terms of Use |
-| `https://shapeme.torchtechnology.de/impressum` | Legal Notice (Impressum) |
+| `/privacy/` | Datenschutzerklärung / Privacy Policy |
+| `/terms/` | Nutzungsbedingungen / Terms of Use |
+| `/impressum/` | Impressum / Legal Notice |
+| `/support/` | Support |
+| `/delete-account/` | Konto und Daten löschen / Delete account and data |
 
-**Provider (all documents):** Finn Klapper · Amrumer Str. 16, Apartment 57 ·
-13353 Berlin, Germany · finn.klapper77@gmail.com
-
-> These documents are drafts tailored to the app's actual data processing (no
-> accounts, local-only data, AI meal analysis via the Supabase proxy →
-> OpenRouter/Google, hashed-IP rate limiting, Apple-only billing, local
-> notifications), but they are **not a substitute for review by a qualified
-> lawyer** before production launch.
+The canonical source is `legal/` in the app repository `absolutebasti/shapeme`.
+Edit there, then copy the pages here; do not edit this repository directly.
